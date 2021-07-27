@@ -14,6 +14,7 @@ const loadTheme = ()=> {
 function App() {
   const [theme, setTheme] = useState(loadTheme())
 
+  console.log("test")
   const handleChange = ()=> {
     setTheme(prev=> {
       if(prev==='light-theme') {
